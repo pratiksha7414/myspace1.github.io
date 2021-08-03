@@ -1,0 +1,144 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                /*variable */
+                
+                : root {
+                    --navbar-height: 59px;
+                }
+                /*navigation bar*/
+                
+                #navbar {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    top: 0px;
+                }
+                
+                #navbar ::before {
+                    content: "";
+                    background-color: black;
+                    position: absolute;
+                    top: 0px;
+                    height: 100%;
+                    width: 100%;
+                    z-index: -1;
+                    opacity: 0.7;
+                }
+                
+                #logo img {
+                    margin: 2px 4px;
+                    height: 82px;
+                    width: 129px;
+                }
+                
+                #navbar ul {
+                    display: flex;
+                }
+                
+                #navbar ul li {
+                    font-size: 1.3rem;
+                    list-style: none;
+                    font-weight: 500;
+                }
+                
+                #navbar ul li a {
+                    display: block;
+                    padding: 3px 60px;
+                    border-radius: 20px;
+                    text-decoration: none;
+                    color: rgb(248, 245, 248);
+                    font-size: 2.5rem;
+                }
+                
+                #navbar ul li a:hover {
+                    color: black;
+                    background-color: blanchedalmond;
+                }
+                
+                #home ::before {
+                    content: " ";
+                    position: absolute;
+                    background: url(/p.jpg)no-repeat center center/Cover;
+                    height: 655px;
+                    width: 100%;
+                    z-index: -1;
+                    opacity: 0.77;
+                    top: 0%;
+                    left: 0;
+                }
+                
+                #home {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 3px 200px;
+                    justify-content: center;
+                    align-items: center;
+                    height: 600px;
+                }
+                
+                #home p {
+                    font-size: 2.5rem;
+                    color: rgb(12, 12, 12);
+                    text-align: center;
+                }
+                /*utility Class*/
+                
+                .h-primary {
+                    font-size: 3.5rem;
+                    color: yellow;
+                    padding: 13px;
+                }
+                
+                .h-secondary {
+                    font-size: 3.0rem;
+                    color: rgb(255, 51, 0);
+                    padding: 13px;
+                }
+                
+                .center {
+                    text-align: center;
+                }
+                
+                .btn {
+                    padding: 13px;
+                    background-color: yellow;
+                    margin: 17px;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    border-radius: 10px;
+                    Cursor: pointer;
+                    width: 155px;
+                    box-shadow: 5px 5px 20px yellow;
+                }
+                
+                .btn:hover {
+                    color: rgb(236, 229, 229);
+                    background-color: rgb(14, 13, 13);
+                    text-shadow: yellow;
+                }
+                /* Services*/
+                
+                #Services {
+                    display: flex;
+                    margin: 55px;
+                }
+                
+                #Services.box {
+                    border: 6px solid red;
+                    padding: 13px;
+                    margin: 2px 55px;
+                    background-color: thistle;
+                }
+                
+                #Services.box img {
+                    height: 160px;
+                    margin: auto;
+                    display: block;
+                }
+                
+                #Services. box para {
+                    width: 123vw;
+                    display: inline;
+                }
